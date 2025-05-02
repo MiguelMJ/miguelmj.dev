@@ -15,3 +15,22 @@ I make open source [projects](./projects) to learn, experiment with different te
 Feel free to [reach me](./social) online! Just note that, for issues with my software, I usually respond faster through an issue in the repository.
 
 Most of the content of this website is in English, but you might find some pages in Spanish.
+
+<hr>
+
+**Changelog**
+
+{% for log in site.data.changelog %}
+
+<dl>
+    <dt>{{log[0]}}</dt>
+    <dd>
+        <ul style="padding-left: 0">
+            {% for change in log[1] %}
+            <li>{{ change | markdownify | remove: '<p>' | remove: '</p>'}}</li>
+            {% endfor %}
+        </ul>
+    </dd>
+</dl>
+
+{% endfor %}

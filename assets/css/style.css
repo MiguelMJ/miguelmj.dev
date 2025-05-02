@@ -1,17 +1,11 @@
 /* typesetting */
 
-body { 
-  font-family: 'Source Serif 4', serif;
-  font-size: 20px;
-}
-
-code {
-  font-family: 'Courier New', monospace;
-}
 
 .subtitle {
   font-style: italic;
-  font-size: 20px;
+  font-size-adjust: 0.45;
+  color: var(--color);
+  font-weight: normal;
 }
 
 article {
@@ -98,15 +92,7 @@ a[href^="https://"]::after
   margin-left: 4px; /* spacing*/
   padding-right: 11px; /* sizing */
 }
-.separator {
-  display: block;
-  line-height: 0.5rem;
-}
-.separator::after {
-  content: '⮟';
-  font-size: small;
-  color: var(--color-low);
-}
+
 a:link, a:visited, summary { 
   text-decoration: underline; 
   text-decoration-color: var(--color-low);
@@ -256,6 +242,7 @@ article main img {
 table:not(.simple) td{
   padding: 0.5rem;
   min-width: 64px;
+  text-align: left;
 }
 
 table.simple td:first-child {

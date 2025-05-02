@@ -11,7 +11,7 @@ miguelmj.dev is a personal webpage to organize and share my thoughts and my work
 
 The site is generated with [Jekyll](https://jekyllrb.com/), using the [jekyll-minifier](https://github.com/digitalsparky/jekyll-minifier) plugin with default settings to reduce file sizes. The code snippets use syntax highlight provided by [Rouge](https://rouge.jneen.net/) and a customized version of its base16.solarized.light theme. Math formulae are rendered using KaTeX by the [jekyll-katex](https://github.com/linjer/jekyll-katex/) plugin.
 
-The font used is Source Serif 4, retreived from Google Fonts.
+The site uses the default system fonts and light mode.
 
 The [source code](https://github.com/MiguelMJ/miguelmj.github.io) of this site is available in GitHub and deployed on Netlify.
 
