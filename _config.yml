@@ -8,12 +8,11 @@ collections:
     output: true
     sort_by: position
 
+highlighter: rouge
+
 plugins:
   - jekyll-minifier
   - jekyll-katex
 
-highlighter: rouge
-
 jekyll-minifier:
-  uglifier_args:
-    harmony: true
+  uglifier_args: {}
