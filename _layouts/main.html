@@ -15,7 +15,7 @@
     {% if page.cover_image and page.cover_image != nil and page.cover_image != "" %}
     <meta name="og:image" content="{{page.cover_image}}">
     {% endif %}
-    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <link rel="icon" href="data:;base64,=">
     <link rel="stylesheet" href="/assets/css/style.css">
    
     {% if page.main_index %}
@@ -24,6 +24,7 @@
     {% if page.highlight %}
     <link rel="stylesheet" href="/assets/css/syntax-base16.solarized.light.css" media="print" onload="this.media='all'"/>
     {% endif %}
+    <script src="/assets/webimage.js"></script>
 </head>
 
 

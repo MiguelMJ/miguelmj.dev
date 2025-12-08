@@ -7,14 +7,21 @@ toc: true
 {% assign featured_projects = site.projects | where: 'category', 'featured' %}
 {% assign other_projects = site.projects | where: 'category', nil | where: 'superproject', nil %}
 {% assign super_projects = site.projects | where: 'category', 'superproject' %}
+{% assign videogames = site.projects | where: 'category', 'videogame' %}
 
 # Projects
 
-## FOSS
+## Videogames
+
+[barqueroteam.com](https://barqueroteam.com). Page dedicated to my activity as an indie game dev.
+
+{% include project_list.html projects=videogames %}
+
+## Free Open-Source Software (FOSS)
 
 ### Featured
 
-Personal favorites, currently active or community supported.
+Personal favorites, currently active or community supported. Co-maintainers wanted!
 
 {% include project_list.html projects=featured_projects %}
 
@@ -44,7 +51,4 @@ Mostly archived, some incomplete.
 
 {% include project_list.html projects=other_projects %}
 
-## Videogames
-
-Coming someday? ;)
 

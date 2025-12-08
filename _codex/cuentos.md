@@ -1,7 +1,6 @@
 ---
 title: Cuentos
-layout: codex-category
-category: index
+category: draft
 description: ~
 position: 2
 ---

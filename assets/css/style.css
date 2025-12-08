@@ -37,9 +37,12 @@ blockquote {
   }
   :root {
     --color: #001818;
-    --background-color: white;
+    --background-color: #fff5d1;
     --color-intense: black;
     --color-low: gray;
+  }
+  [data-imgstate="dithered"] {
+    mix-blend-mode: multiply;
   }
 }
 
@@ -54,6 +57,9 @@ blockquote {
     --background-color: black;
     --color-intense: white;
     --color-low: gray;
+  }
+  [data-imgstate="dithered"] {
+    mix-blend-mode: screen;
   }
 }
 
@@ -117,13 +123,6 @@ h1, hr {
 h2:not(.subtitle) {
   border-bottom: 1px solid var(--color-low)
 }
-i {
-  border: 1px solid var(--color-intense);
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  display: block;
-}
 
 #toc a{
   text-decoration: none;
@@ -165,7 +164,6 @@ summary { cursor: pointer; }
   right: 32px;
   z-index: 99;
   cursor: pointer;
-  border: 1px solid var(--color-intense);
 }
 #gototop::after {
   font-style: normal;
@@ -207,7 +205,7 @@ body {
   nav#navbar {
     position: absolute;
     top: 1rem;
-    left: calc(868px - -2rem);
+    left: calc(868px + 2rem);
     width: 124px;
   }
 }
@@ -265,6 +263,20 @@ blockquote {
   margin-left: auto;
   padding: 0 8px;
 }
+
+aside blockquote {
+  margin: 0;
+  padding: 0 12.5%;
+  border-left: none; 
+  border-top: 0.5px solid var(--color-low);
+  border-bottom: 0.5px solid var(--color-low);
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-indent: 0;
+  text-align: start;
+}
+
 .card > table:last-child {
   width: calc(100% - -2rem);
   margin-bottom: -0.5rem;
@@ -273,4 +285,10 @@ blockquote {
 }
 img.cover {
   width: 100%;
+}
+.webimage {
+  max-width: 800px;
+  max-height: 800px;
+  height: auto;
+  cursor: pointer;
 }

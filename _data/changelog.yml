@@ -1,5 +1,17 @@
+'08/12/2025':
+  - "Videogames section added to [Projects](/projects)."
+  - "New blog post (spanish): [Mi actualización de 2025](/blog/mi-actualizacion-de-2025)."
+  - "New draft in Codex (spanish): [Interfaces para la desvirtualización](/codex/interfaces-para-la-desvirtualizacion)."
+  - "New section in [Dev notes](/codex/dev-notes/) for [Semantic Web notes](/codex/dev-notes/semantic-web)."
+  - "Minor updates here and there."
+'21/05/2025':
+  - Some but not all pages started using dithered images that can be clicked to see the original image.
+  - The snippet used to generate these images was added to the [dev notes](/codex/dev-notes/cli-toolbox#imagemagick).
+  - Some references to the [Low←Tech Magazine](https://solar.lowtechmagazine.com/) were added where relevant.
+  - "[Plant logbook](/codex/plant-logbook) updated."
+  - Minor style changes.
 '03/05/2025':
-  - The changelog was added to the page
-  - "[UMA CS Thesis Template](/projects/umacsthesistemplate) was added to [Projects](/projects)"
-  - The [plant logbook](/codex/plant-logbook) was added to the [Codex](/codex)
-  - Fonts changed to system defaults instead of Source Serif
+  - The changelog was added to the page.
+  - "[UMA CS Thesis Template](/projects/umacsthesistemplate) was added to [Projects](/projects)."
+  - The [plant logbook](/codex/plant-logbook) was added to the [Codex](/codex).
+  - Fonts changed to system defaults instead of Source Serif.

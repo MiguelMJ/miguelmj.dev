@@ -1,0 +1,11 @@
+{% assign png = "/assets/img/web/" | append: include.name | append: ".png" %}
+<img 
+    src="{{png}}"
+    alt="{{include.title}}"
+    loading="lazy"
+    decoding="async"
+    data-imgname="{{include.name}}"
+    data-imgstate="dithered"
+    class="webimage"
+    onclick="toggleWebImage(this)"
+/>

@@ -17,4 +17,4 @@ The [source code](https://github.com/MiguelMJ/miguelmj.github.io) of this site i
 
 ***
 
-This website has had different iterations that have reflected my relationship with design and web technologies, culminating in the current version, which is guided more by a philosophy than a design style. Said philosophy partially combines [indieweb](https://indieweb.org) principles and [brutalist web design](https://brutalist-web.design/) and intends to align with a [deeper attitude towards technology](/codex/on-technology). I have therefore opted for a static, content-focused design.
+This website has had different iterations that have reflected my relationship with design and web technologies, culminating in the current version, which is guided more by a philosophy than a design style. Said philosophy partially combines [indieweb](https://indieweb.org) principles and [brutalist web design](https://brutalist-web.design/) and intends to align with a [deeper attitude towards technology](/codex/on-technology). I have therefore opted for a static, low-tech, content-focused design.

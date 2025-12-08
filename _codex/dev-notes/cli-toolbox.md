@@ -26,6 +26,23 @@ Use `entr` to execute a command every time a file is modified. For example, to w
 echo input_file.md | entr pandoc input_file.md -o output_file.pdf
 ```
 
+## imagemagick
+
+Convert images to a reduced, dithered and monochrome version to use in the website. The resultant images weight less than a third of the original size! Inspired by [Low Tech Magazine](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/#dithered-images)
+
+```bash
+for oldimg in ../*.jpg; do 
+    newimg="$(basename -s .jpg "$oldimg").png"
+    magick "$oldimg" \
+        -resize 800x800 \
+        -ordered-dither o4x4\
+        -colorspace gray \
+        -colors 6 \
+        "$newimg"
+done 
+```
+
+
 
 {% endcapture %}
 

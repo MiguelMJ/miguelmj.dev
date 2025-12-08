@@ -12,13 +12,24 @@ I find these people and these sites interesting or useful in some way so I keep 
 
 ## People
 
-- https://100r.co
-- https://malloc.dog/
+- https://malloc.dog
 - https://gwern.net
-- https://www.lafondafilosofica.com/
+- https://www.lafondafilosofica.com
 - https://www.caminosdellogos.com
 - https://substack.com/@aleph0
-- https://www.over-yonder.net/~fullermd/
+- https://www.over-yonder.net/~fullermd
+- https://www.rntz.net
+
+## Permacomputing, ecology, low tech
+
+- https://100r.co
+- https://solar.lowtechmagazine.com
+- https://es.ifixit.com/
+
+## Indie devs
+
+- https://nonoise.itch.io/
+- https://pantagruel.itch.io/
 
 ## Random
 

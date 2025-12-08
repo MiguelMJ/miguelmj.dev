@@ -24,6 +24,8 @@ I believe there is a need to localise technology, reduce its high energy demands
 
 - [Critical Engineering](https://criticalengineering.org/)
 - [Permacomputing](https://permacomputing.net/Principles/)
+- [Against Software Development](https://www.rntz.net/post/against-software-development.html)
+- [How to Build a Low-tech Website](https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/)
 - [Guidelines for Brutalist Web Design](https://brutalist-web.design/)
 - [Free Open Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software)
 - [Right to Repair](https://en.wikipedia.org/wiki/Right_to_repair)

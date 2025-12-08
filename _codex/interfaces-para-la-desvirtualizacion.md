@@ -1,16 +1,12 @@
 ---
 layout: post
 title: Interfaces para la desvirtualización
+description: Ensayo sobre la naturaleza de lo virtual y los retos que plantea.
 pseudodate: 2025
-category: draft
-position: 50
+category: index
+position: 2
+draft: true
 ---
-
-## Introducción
-
-Uno de los principales efectos del progreso tecnológico, especialmente digital, es la creciente virtualización de nuestro entorno, nuestras relaciones y nuestra vida en general. Me gustaría reflexionar sobre la naturaleza de esta virtualización e identificar dónde se encuentra el punto que convierte el avance de la técnica en algo desadaptativo.
-
-Por estar hablando de tecnología, hay dos acepciones del diccionario que me interesan.
 
 > Virtual:
 > - Que está ubicado o tiene lugar en línea, generalmente a través de internet. Tienda, campus, curso, encuentro virtual.<br>
@@ -20,77 +16,82 @@ Por estar hablando de tecnología, hay dos acepciones del diccionario que me int
 > 
 > -- [Diccionario de la RAE](https://dle.rae.es/virtual)
 
-A través del concepto de lo virtual, se establece una relación entre lo que existe sólo en un soporte digital y lo que es pura apariencia. Aunque esto nos da un punto de partida, cualquier crítica o análisis desde aquí sería superficial. Hace falta profundizar en el concepto y descubrir que la virtualización no aparece con las tecnologías digitales.
-
-La fuente de lo virtual, que tenemos que analizar para entenderlo del todo, son las *interfaces*. Debemos comprender cómo pueden modelar, enriquecer, condicionar o limitar nuestra relación con el mundo. Sólo así podemos entender del todo cómo aparece lo virtual, cómo se producen sus efectos y cuáles son las consecuencias de sumergirse en ello.
-
-## Relaciones de sujeto, objeto e interfaz
-
-El contacto con la realidad, la forma más elemental de relación con el mundo, se experimenta a través del cuerpo. Aquello que podemos percibir y manipular sin intermediarios es lo que conforma nuestro entorno inmediato. Existe una relación física o **relación directa** con el mundo:
-
-<div role="img" arial-label="Diagrama relacionando bidireccionalmente dos nodos llamados sujeto y objeto">
-<span class="card">Sujeto</span>⟷<span class="card">Objeto</span>
-</div>
-
-También es posible relacionarse con el mundo a través de un elemento intermedio: la interfaz. Ésta modela la información que hay al otro lado y nos permite razonar sobre ello en términos propios. Al recibir información de la interfaz y actuar sobre ella, lo hacemos indirectamente sobre el objeto, pero pensando en el lenguaje de la interfaz y no de aquello que modela. Cuando existe este tipo de interacción, existe una **relación indirecta**:
-
-<span class="card">Sujeto</span>⟷<span class="card">Interfaz</span>⟷<span class="card">Objeto</span>
-
-Las interfaces siempre tienen un aspecto material (tangible o no, pero material) y uno formal, que modela el objeto de la relación. Cuando el aspecto formal se refiere al mundo, consideramos que la interfaz supone una indirección entre éste y el sujeto. Pero cuando el aspecto formal se refiere a sí mismo (se autocontiene), entonces la interfaz se convierte propiamente en el objeto de relación y es entonces cuando consideramos que existe un **sistema virtual**, que produce una **relación virtual**:
-
-<span class="card">Sujeto</span>⟷<span class="card">Interfaz</span>⮌
-
-Estos sistemas presentan, como apuntábamos antes, cierto grado de *irrealidad*, por la ausencia de un objeto al otro lado. La información que recibe el sujeto sólo tiene sentido en la medida en la que el modelo de la interfaz se ajusta a un objeto del mundo real. En otras palabras: el sistema virtual sólo puede tener un carácter de simulación.
-
-La información que el sujeto recibe del sistema proviene del conocimiento con el que se creó la interfaz, y los efectos de actuar sobre ella no se trasladan al mundo. En cambio, se limitan al componente físico de la interfaz, se transforman según el modelo que implementan, y se devuelven al sujeto. La única manera en la que un sistema virtual repercute en el mundo es a través de su repercusión en el sujeto. 
-
-De hecho, los sistemas virtuales "analógicos" a los que nos exponemos a una edad más temprano son los juegos de simulación. Los juguetes son interfaces a una versión virtual (en ese sentido, imaginaria) de lo que representan: herramientas, personas, animales, etc.
-
-El aislamiento del sujeto que se da en estos sistemas es a menudo deseable, para minimizar las consecuencias de los errores durante un aprendizaje. Por otra parte, presenta el primer riesgo de inaptabilidad, porque si dicho aprendizaje termina o directamente no existe, el espacio virtual se convierte en una trampa, un lugar donde el sujeto queda expulsado de la realidad.
-
-La mayoría de sistemas lo suficientemente complejos acaban requiriendo interfaces que, por la necesidad de simular el sistema que modelan, son **parcialmente virtuales**: modelan la interacción con el objeto y, al mismo tiempo, la extienden a una simulación. 
-
-
-<span class="card">Sujeto</span>⟷<span class="card">Interfaz</span><sup>⮌</sup><sub>⟷<span class="card">Objeto</span></sub>
-
-Antes de explorar esta cuestión, describiremos con más precisión las características y el funcionamiento de las interfaces. Esto nos hará falta para explicar la naturaleza de los sistemas parcialmente virtuales.
-
-## Interfaces para el modelado
-
 > Interfaz:
 > - Conexión o frontera común entre dos aparatos o sistemas independientes.
 > - Conexión, física o lógica, entre una computadora y el usuario, un dispositivo periférico o un enlace de comunicaciones.
 > 
 > -- [Diccionario de la RAE](https://dle.rae.es/interfaz)
 
-Los sistemas que creamos los seres humanos a menudo escapan de nuestras posibilidades de interacción. A veces es por una imposibilidad física o por la carga cognitiva que conllevaría una relación de tal complejidad. Para recuperar la posibilidad de interacción, construimos *interfaces* con las que si podemos interaccionar y cuyo componente físico realiza la interacción con el objeto en nuestro lugar.
-
-Para que las operaciones sobre la interfaz y su información se correspondan con operaciones e información sobre el objeto, aquella debe tener un modelo del mismo. En la medida en la que este modelo se corresponda directamente con el componente físico de la interfaz, diremos que es un modelo **implícito**, y en la medida en la que este modelo tenga una estructura formal propia, lo llamaremos **explícito**.
-
-Un ejemplo claro de interfaz con modelo implícito es la de un coche. Las operaciones sobre el volante, los pedales y la palanca de cambios tienen una corresponencia directa con los mecanismos del vehículo. Lo mismo pasa con la información que nos muestran los pilotos del salpicadero. Un modelo tan fuertemente implícito permite poca virtualidad, porque la interfaz no añade apenas capas de abstracción formal.
 
 
+## Introducción
 
-Mientras tanto, un departamento de operaciones constituye una relación con un modelo intermedio.
+La creciente virtualización de nuestro entorno, nuestras relaciones y nuestra vida en general, es uno de los principales efectos del progreso tecnológico reciente. Para comprender qué es lo **virtual**, cómo emerge de la tecnología y su presencia en nuestro mundo, hace falta profundizar en el concepto de **interfaz**. Estamos habituados al uso de estas palabras en el contexto de las tecnologías digitales, pero mi intención es desgranar cómo se aplican de una manera más general, para entender mejor cómo *lo virtual* modela, enriquece, condiciona o limita nuestra relación con el mundo.
 
-## Sistemas parcialmente virtuales
+## Modelo e interfaz
 
-El propósito original de una interfaz en medio de una relación indirecta es modelar la interacción entre las partes. Sin embargo, cuando dicha interfaz extiende esta relación con un componente simulado, la correspondencia verdadera se deforma. Es entonces cuando los riesgos más graves de inadaptabilidada aparecen.
+La forma más elemental de relación con el fenómeno de la realidad se experimenta a través del cuerpo. Nuestro entorno inmediato se conforma por aquello que podemos percibir y manipular sin intermediarios.
+
+![Diagrama de una Relación directa. Del sujeto al objeto](/assets/img/relaciondirecta.png){: .invert-on-dark}
+
+No obstante, el mismo cuerpo limita nuestra capacidad de percepción y manipulación directa. La tecnología le permite al ser humano aumentar esta capacidad a través de máquinas que hacen de interfaces, informadas por los modelos del mundo obtenidos gracias a la actividad científica. A medida que actuación sobre la realidad se distancia del potencial de nuestro cuerpo, la propia operación de las máquinas requiere de interfaces que medien con el sistema completo. Operar sobre la interfaz es operar sobre la máquina, y operar sobre la máquina es operar sobre la realidad. 
+
+<aside><blockquote><p>
+La efectividad de las interfaces en cualquier sistema depende de la calidad del modelo que las informa.
+</p></blockquote></aside>
+
+Los sistemas tecnológicos no son los únicos que contienen interfaces: cualquier sistema organizado en el que haya un flujo de información y se realicen acciones sobre el medio necesita de interfaces a partir de un mínimo de sofisticación. Cada nivel de una jerarquía, por ejemplo, es una interfaz entre el nivel superior y el inferior. De esta manera, la cabeza de la organización puede, en teoría, manipular y conocer la realidad de manera aumentada, a través de todos los miembros subordinados.
+
+Sin embargo, la efectividad de las interfaces en cualquier sistema depende de la calidad del modelo que las informa. Cuánto más ajustado esté a la realidad, mayor será su efectividad en trasladar las acciones al mundo y la información al sujeto. 
+
+![Diagrama de una Relación mediada. Del sujeto a la interfaz, y de esta al objeto](/assets/img/relacionmediada.png){: .invert-on-dark}
+
+El modelo de la interfaz tecnológica puede ser más o menos explícito. Si la estructura física de la interfaz tiene correspondencias directas con el objeto, el modelo es implícito, no requiere de un trabajo de representación añadido. En cambio, a medida que la correspondencia física se produzca a través de un aspecto simbólico de la interfaz, el modelo se hace más explícito.
+
+Distintas interfaces tecnológicas para el mismo objeto pueden tener modelos más o menos explícitos. Por ejemplo, una balanza tradicional tiene un modelo implícito, informado por el funcionamiento de la palanca. Una balanza electrónica, en cambio, utiliza un circuito electrónico cuyo modelo está informado por todo el conocimiento necesario sobre física para traducir el peso sobre una placa en un número en una pantalla. El modelo es explícito en la medida en lo es su formalizacion en la estructura física de la interfaz.
 
 
-Es más difícil para el sujeto medir el impacto que tiene en el mundo la relación con una interfaz parcialmente virtual. También es más fácil confundir al objeto real con el elemento simulado. Como consecuencia, se puede producir un círculo vicioso en el que el sujeto sólo mide el impacto virtual de sus acciones sobre un objeto real, quedando aislado el sujeto del objeto, pero no el objeto del sujeto. Una buena parte, por no decir la mayoría, de nuestros sistemas son parcialmente virtuales. 
+## Lo puramente virtual
 
-En la economía encontramos un caso claro. La divisa es la virtualización del valor que en una relación directa se transmitiría mediante el trueque. Se crea una relación indirecta con el valor de los objetos al modelarlo con un numérico medido en cierta divisa: un precio. Además, se crea un nuevo valor sobre el propio dinero, un valor virtual. En un trueque, la relación entre lo que se da y lo que se recibe es directa; cualquier regateo tiene unas consecuencias inmediatas. Con el dinero, hay un valor virtual que no se corresponde a ningún objeto sino a objetos potenciales modelados por su precio. Terminamos con una interfaz que nos relaciona con el valor de los objetos, pero también con su propio modelo virtual.
+Puesto que los modelos explícitos se definen a partir del conocimiento real de los objetos modelados, se da la posibilidad de relacionar una interfaz con el propio modelo del objeto, en lugar de con un objeto real. Este es el fenómeno de la simulación, que da lugar a lo virtual.
 
-Otro ejemplo son las métricas de evaluación en el sistema educativo, en los controles de calidad, etc. Lás métricas proporcionan una interfaz entre los sujetos y aquello que miden, con el objeto de razonar mejor sobre aspectos como los resultados de un aprendizaje o de un proceso productivo. Fácilmente, la implementación de estas métricas se convierte en un modelo a atajar, olvidando aquello que se pretendía cuantificar y pasando a medir la capacidad de las propias métricas de ser satisfechas. Esto es a lo que se refieren, en otros contextos, el concepto de *reward hacking* en Inteligencia Artificial o la ley de Goodhart:
+![Diagrama de una Relación virtual. Del sujeto a la interfaz, y de esta sí misma, a su propio modelo](/assets/img/relacionvirtual.png){: .invert-on-dark}
+
+Puesto que no hay un objeto al otro lado de la relación, las operaciones del sujeto no tienen efecto fuera del mismo. Al no haber una correspondencia material, el modelo absolutamente explícito informa una interfaz puramente representativa. Todo lo que sucede en el sistema virtual es ficticio; es decir, solo afecta al mundo en la medida en la que afecta al sujeto. La interfaz solo actúa en autorreferencia.
+
+Estos sistemas virtuales o *simulaciones* son contenedores del conocimiento que pueda aportar su modelo interno. Esto los hace entornos seguros de aprendizaje o la recreación. La ficción con la que el sujeto interactúa le devolverá el conocimiento o la experiencia del modelo que la informa, en tanto que su diseño sea efectivo.
+
+<aside><blockquote><p>
+Todo lo que sucede en el sistema virtual es ficticio; es decir, solo afecta al mundo en la medida en la que afecta al sujeto.
+</p></blockquote></aside>
+
+Cuando las simulaciones pueden aportarnos conocimiento del mundo (o una experiencia estética), ofrecen interacciones beneficiosas para el sujeto. Es una de las razones por las que el juego es importante para los niños. Incluso como adultos, un simulacro nos permite aprender sin temor a las consecuencias de equivocarnos. No obstante, la simulación también nos aísla de la realidad. Este es el gran potencial desadaptativo de lo virtual: la misma ficción que construye espacios de experimentación, puede ser una trampa en la que quedarse encerrado.
+
+Cuando consideramos lo virtual y lo real como espacios distintos, entonces el problema se encuentra en llevar al sujeto desde un mundo imaginario a uno real (un tema común en la filosofía o la historia del arte). Mucho más difícil es la cuestión que me interesaba plantear en este texto: el problema de los sistemas en los que coexisten lo virtual y lo real.
+
+## La emergencia de la virtualidad a partir de los modelos
+
+A medida que nuestras tecnologías se hacen más sofisticadas, las interfaces que pueden construirse también se pueden permitir modelos más elaborados para la relación con objetos más complejos. Como sujetos humanos, nuestra capacidad física y cognitiva no puede variar demasiado, así que el salto de complejidad entre lo que hay a cada lado de la interfaz se hace cada vez mayor. Los modelos requeridos para informar nuestras interfaces se hacen más explícitos y crean espacios de representación cada vez más amplios. Inevitablemente, estos sistemas acaban presentando relaciones de autorreferencia de las que emergen burbujas de virtualidad.
+
+![Diagrama de una Relación parcialmente virtual. Del sujeto a la interfaz, y de esta sí misma y al objeto al mismo tiempo](/assets/img/relacionparcialmentevirtual.png){: .invert-on-dark}
+
+Un ejemplo paradigmático de sistema parcialmente virtual es el mercado. Mientras el trueque es un intercambio directo de valor intrínseco (el de los objetos o servicios intercambiados), la moneda forma una interfaz entre el sujeto y el valor de los productos. La economía se virtualiza a medida que la moneda y los productos se hacen más representativos y menos físicos (moneda fiduciaria, activos financieros, etc). En un sistema así, no es posible separar lo real de lo virtual, porque la propia interfaz (el dinero) funciona de manera autorreferencial.
+
+<aside>
+<blockquote>
+<p>Puede aparecer un círculo vicioso donde el sujeto sólo mide el impacto virtual de sus acciones sobre un objeto real.</p>
+</blockquote>
+</aside>
+
+De la misma manera, cualquier interfaz que incorpora métricas autorreferenciales incrementa su grado de virtualidad. Es posible que éstas enriquezcan de alguna manera la información que se obtiene del objeto, pero también provocan la confusión del objeto real con su versión simulada. Como consecuencia, puede aparecer un círculo vicioso donde el sujeto sólo mide el impacto virtual de sus acciones sobre un objeto real, aislando al sujeto del objeto, pero no al objeto del sujeto.
+
+Esto no sólo ocurre en detrimento de la relación del sujeto con el mundo; también perjudica la propia eficacia de la interfaz. Las métricas se convierten en algo que se debe atajar, olvidando lo que pretendían cuantificar o categorizar, pasando a medir su propia susceptibilidad de ser satisfechas. Esto es a lo que se refieren, en otros contextos, el concepto de *reward hacking* en Inteligencia Artificial o la ley de Goodhart:
 
 > Cuando un indicador socioeconómico u otra medida sustituta se convierte en el objetivo de políticas socioeconómicas, pierde el contenido informativo que podía cualificarla para jugar ese papel.
 
-Todos estos bucles de retroalimentación secundarios con el potencial de atrapar el significado un fenómeno principal provienen de un diseño, intencional o no, que modela dicho fenómeno haciéndolo partícipe de una simulación; un sistema parcialmente virtual, que mezcla la relación con el mundo y la relación consigo mismo.
+Todos estos bucles de retroalimentación secundarios con el potencial de atrapar la actividad de un sistema principal provienen del diseño, intencional o no, de un modelo con elementos simulados; un sistema parcialmente virtual, que mezcla la relación con el mundo y la relación consigo mismo.
 
 ## Identificar lo virtual
-
-Después de los ejemplos que hemos puesto, cabe preguntarse si acaso la virtualidad no emerge de manera inevitable a partir de cierta complejidad en las relaciones que queremos resolver. Cualquier interfaz que pretenda modelar una realidad compleja va a crear espacios virtuales intermedios que pueden convertirse en agujeros, trampas o bucles en los que caer. Cualquier propuesta que pretenda eliminarlos se revela enseguida como una solución utópica. Más bien, necesitamos saber identificarlos y, en la medida de lo posible, reducirlos.
 
 Para distinguir el componente virtual del objeto real en una interfaz hay que contemplar con detenimiento la información y las operaciones que ofrece una interfaz. En una relación indirecta, sin virtualización, la interfaz modela la relación con el objeto, haciéndolo más accesible de alguna manera o aumentando algún aspecto de la interacción, pero no atribuyéndole nuevas propiedades. Si eliminamos el componente físico de la interfaz, la relación con el objeto tendrá que redefinirse de manera directa, física. Será una relación más lenta, más compleja o más costosa, pero la información obtenida y las operaciones posibles serán, teóricamente, las mismas.
 

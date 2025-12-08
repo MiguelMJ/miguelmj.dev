@@ -16,5 +16,6 @@ If a profile on any platform is not on this list, then it is not mine.
 |GitHub| [@MiguelMJ](https://github.com/MiguelMJ)|
 |Gitea| [@MiguelMJ](https://gitea.com/MiguelMJ)|
 |StackOverflow|[8757033/miguel](https://stackoverflow.com/users/8757033/miguel)|
+|itch.io|[barquero.itch.io](https://barquero.itch.io)|
 
 I try to practice [POSSE](https://indieweb.org/POSSE). I intend slowly migrate from centralized platforms and use them just to cross-post.

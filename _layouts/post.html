@@ -14,6 +14,12 @@ layout: main
         <h2 class="subtitle">{{ page.subtitle }}</h2>
         {% assign postdate = page.date | date: "%Y-%m-%d" %}
         <small>MiguelMJ - <date>{{ page.pseudodate | default: postdate }}</date></small>
+        {% if page.draft %}
+        <aside class="card" style="color: red">
+            <strong><em>This article is a draft, so it's incomplete, it may have errors and could be edited at any time.<br>
+            Este artículo es un borrador, por lo que estará incompleto, tendrá errores y podría ser reeditado en cualquier momento.</em></strong>
+        </aside>
+        {% endif %}
     </header>
     <nav role="doc-index" id="toc" class="card">
         {% include toc.html html=content h_min=page.toc_min h_max=3 %}
