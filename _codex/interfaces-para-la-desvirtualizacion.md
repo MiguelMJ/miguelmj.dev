@@ -22,54 +22,65 @@ draft: true
 > 
 > -- [Diccionario de la RAE](https://dle.rae.es/interfaz)
 
+## Nota para el lector
 
+Este es un ensayo en proceso de construcción. Para escribir su versión definitiva, me hace falta aprender más sobre semiótica y cibernética, que deberían ser los pilares del marco teórico que persigue definir este texto. Por eso, se edita cada cierto tiempo para aclarar ideas, incorporar referencias relevantes y pulirlo en general. Que se considere este texto como un borrador a ser rescrito del todo, más que algo definitivo.
 
 ## Introducción
 
-La creciente virtualización de nuestro entorno, nuestras relaciones y nuestra vida en general, es uno de los principales efectos del progreso tecnológico reciente. Para comprender qué es lo **virtual**, cómo emerge de la tecnología y su presencia en nuestro mundo, hace falta profundizar en el concepto de **interfaz**. Estamos habituados al uso de estas palabras en el contexto de las tecnologías digitales, pero mi intención es desgranar cómo se aplican de una manera más general, para entender mejor cómo *lo virtual* modela, enriquece, condiciona o limita nuestra relación con el mundo.
+La creciente virtualización de nuestro entorno, nuestras relaciones y nuestra vida en general, es un efecto clave del progreso tecnológico para entender nuestra transformación como seres humanos. Lo **virtual** emerge del lenguaje y de la tecnología, y es inseparable del concepto de **interfaz**. Generalmente, se tiene una conciencia de este fenómeno en el contexto de lo digital, pero *lo virtual* modela, enriquece, condiciona, limita y extiende nuestra relación con el mundo también fuera de las pantallas. Este ensayo pretende experimentar con un marco teórico basado en la relación realidad-virtualidad, con el objetivo de integrarlo en una visión crítica de la tecnología. 
 
 ## Modelo e interfaz
 
-La forma más elemental de relación con el fenómeno de la realidad se experimenta a través del cuerpo. Nuestro entorno inmediato se conforma por aquello que podemos percibir y manipular sin intermediarios.
+Sin lenguaje y sin tecnología, la realidad solo se experimenta a través del cuerpo. Nuestro entorno inmediato se conforma por aquello que podemos percibir con nuestros sentidos y manipular físicamente.
 
-![Diagrama de una Relación directa. Del sujeto al objeto](/assets/img/relaciondirecta.png){: .invert-on-dark}
+![Diagrama de una relación directa entre dos elementos. El elemento Sujeto está relacionado mediante una flecha bidireccional con un elemento Objeto.](/assets/img/relaciondirecta.png){: .invert-on-dark}
 
-No obstante, el mismo cuerpo limita nuestra capacidad de percepción y manipulación directa. La tecnología le permite al ser humano aumentar esta capacidad a través de máquinas que hacen de interfaces, informadas por los modelos del mundo obtenidos gracias a la actividad científica. A medida que actuación sobre la realidad se distancia del potencial de nuestro cuerpo, la propia operación de las máquinas requiere de interfaces que medien con el sistema completo. Operar sobre la interfaz es operar sobre la máquina, y operar sobre la máquina es operar sobre la realidad. 
+<!-- Comentar aquí abajo la teoría ciborg y cuerpo y mente extensos -->
+
+Por lo tanto, nuestra propia naturaleza limita nuestras capacidades de percepción y manipulación del entorno. La tecnología aumenta estas capacidades a través de las máquinas, que aprovechan un modelo del mundo para informar su funcionamiento. En las más básicas, su modelo está implícito, hasta el punto de que la propia máquina se puede convertir en un primer acceso mental a las leyes que subyacen a su operación, como sucede en el caso de la rueda, la palanca o incluso la lente. Es cuando la máquina incorpora el lenguaje que su modelo se hace explícito. El símbolo, la capacidad de representación, permite construir máquinas cuyo modelo no solo responde a la física o la química, sino a un proceso lógico propio, definido a partir de un lenguaje. Así es como, por ejemplo, una palanca puede convertirse en una balanza; su modelo incorpora el número, un código que permite operar _tecnológicamente_ sobre conceptos más abstractos, como la equivalencia.
+
+Hay que aclarar que lo que hace explícito el modelo de una máquina no es meramente la presencia del símbolo en su operación, sino la existencia de un lenguaje de diseño que codifica el funcionamiento de la máquina. De esta manera, una balanza tradicional sigue teniendo un modelo mucho más implícito que su contraparte electrónica, pues el lenguaje de diseño de la palanca es mucho menos sofísticado que el de los circuitos y sensores.
+
+Gracias a la introducción del símbolo en el modelo de las máquinas, estas pasan a participar del espacio de representación en el que el ser humano construye su propio modelo virtual del mundo. Nos referimos, por este modelo virtual, a todas las estructuras simbólicas que el ser humano habita a través del lenguaje, como la organización social, la ley o la economía. Sólo en este espacio virtual, pueden existir las interfaces, que no son sino subsistemas capaces de conectar otros dos mediante un modelo interno, parcial o totalmente compartido. Estos subsistemas, además, son inherentemente necesarios por lo dicho inicialmente: la capacidad humana está limitada por nuestro cuerpo y nuestra mente, así que la relación con sistemas cuya naturaleza excede nuestra posibilidad de interacción, debe estar mediada por interfaces.
 
 <aside><blockquote><p>
-La efectividad de las interfaces en cualquier sistema depende de la calidad del modelo que las informa.
+El funcionamiento de las interfaces depende de la corrección del modelo que las informa.
 </p></blockquote></aside>
 
-Los sistemas tecnológicos no son los únicos que contienen interfaces: cualquier sistema organizado en el que haya un flujo de información y se realicen acciones sobre el medio necesita de interfaces a partir de un mínimo de sofisticación. Cada nivel de una jerarquía, por ejemplo, es una interfaz entre el nivel superior y el inferior. De esta manera, la cabeza de la organización puede, en teoría, manipular y conocer la realidad de manera aumentada, a través de todos los miembros subordinados.
+Esta mediación es de dos tipos, correspondientes a las operaciones tecnológicas que venimos comentando: la percepción y la manipulación. En una dirección, el ser humano recibe información de la interfaz; su objeto --ya sea la realidad o un sistema virtual--, la informa en un modo que no sería totalmente accesible para nosotros; entonces, el subsistema de la interfaz, a través de su propio modelo, traduce esa información a algo que sí podemos entender. Este sería el caso de un termómetro de mercurio, cuya interfaz está compuesta por las marcas hechas para medir la temperatura en grados. En la otra dirección, el ser humano puede operar sobre una interfaz, de manera que el objeto experimente una transformación predecible según el modelo de aquella, reduciendo la energía o destreza requeridas por nuestra parte; a menudo adaptando a nuestra propia anatomía los movimientos requeridos para transformar el objeto. A menudo, una interfaz sirve a ambos propósitos a la vez, como sucede con el dial de una radio, que nos indica qué frecuencia sintoniza y al mismo tiempo nos permite cambiarla.
 
-Sin embargo, la efectividad de las interfaces en cualquier sistema depende de la calidad del modelo que las informa. Cuánto más ajustado esté a la realidad, mayor será su efectividad en trasladar las acciones al mundo y la información al sujeto. 
+En cualquier sistema físico, la integridad y la correcta disposición de las partes es fundamental para su funcionamiento. Sin embargo, el de las máquinas que incorporan modelos explícitos también depende de la corrección de sus interfaces; y el de estas, a su vez, de la corrección del modelo que las informa. En el ejemplo anterior, podríamos tener una radio en perfecto estado, pero consideraríamos que tiene un defecto si las frecuencias del dial estuvieran borradas --problema de la interfaz-- o mal numeradas --problema del modelo; esa máquina, con todas sus capacidades intactas, no sería totalmente funcional para nosotros.
 
 ![Diagrama de una Relación mediada. Del sujeto a la interfaz, y de esta al objeto](/assets/img/relacionmediada.png){: .invert-on-dark}
 
-El modelo de la interfaz tecnológica puede ser más o menos explícito. Si la estructura física de la interfaz tiene correspondencias directas con el objeto, el modelo es implícito, no requiere de un trabajo de representación añadido. En cambio, a medida que la correspondencia física se produzca a través de un aspecto simbólico de la interfaz, el modelo se hace más explícito.
+## Lo virtual
 
-Distintas interfaces tecnológicas para el mismo objeto pueden tener modelos más o menos explícitos. Por ejemplo, una balanza tradicional tiene un modelo implícito, informado por el funcionamiento de la palanca. Una balanza electrónica, en cambio, utiliza un circuito electrónico cuyo modelo está informado por todo el conocimiento necesario sobre física para traducir el peso sobre una placa en un número en una pantalla. El modelo es explícito en la medida en lo es su formalizacion en la estructura física de la interfaz.
+Antes hemos hablado del espacio humano de representación, y hemos mencionado el modelo virtual del mundo como las estructuras que habitamos a través del lenguaje. La virtualidad es algo propio del símbolo, estrechamente relacionado con la ficción; es aquello que existe sólo por autorreferencia y sólo se significa a sí mismo. Lo virtual, por lo tanto, crea burbujas aisladas de la realidad, donde la transformación de un objeto solo es aparente. Lo único que puede ser transformado a través de lo virtual es el propio sujeto.
 
+<!-- Entender para el párrafo anterior la relación con Baudrillard -->
 
-## Lo puramente virtual
+Por eso mismo, las actividades humanas que suceden en ese espacio de representación sólo son parcialmente virtuales. Para las personas en una tienda, por ejemplo, el valor de la moneda, el reconocimiento de la propiedad privada, los derechos de los consumidores y los trabajadores, y muchas otras cosas, suceden en un espacio virtual compartido, que es el pacto social; el intercambio de bienes, en cambio, se produce con efectos tangibles sobre la realidad. A través del lenguaje, la sociedad misma se constituye esencialmente como un sistema parcialmente virtual.
 
-Puesto que los modelos explícitos se definen a partir del conocimiento real de los objetos modelados, se da la posibilidad de relacionar una interfaz con el propio modelo del objeto, en lugar de con un objeto real. Este es el fenómeno de la simulación, que da lugar a lo virtual.
+<!-- Entender para el párrafo anterior la relación con Focault y las tecnologías de representación -->
+
+Como explicamos anteriormente, los sistemas complejos que exceden nuestra capacidad de interacción requieren de interfaces. En estas estructuras sociales, económicas, legislativas, etc, también hay interfaces para que los agentes humanos puedan interactuar con el todo: los organigramas de instituciones públicas y privadas componen sistemas donde la información y las decisiones se transmiten de manera bidireccional, pero mediada por responsables de distintas escalas o niveles. Igual que con las máquinas, estos sistemas y cada uno de sus subsistemas e interfaces, debe tener un modelo compartido --para cumplir su papel-- y correcto --para que las operaciones sean efectivas.
+
+La tecnología, al incorporar el símbolo, también puede crear espacios virtuales. Como dijimos, lo virtual es aquello que solo existe por autorreferencia; por tanto, la virtualidad en la máquina se da cuando su modelo interno se refiere a sí mismo, de manera que operar sobre la máquina ya no se traduce al mundo, sino a una representación, informada por el conocimiento codificado en su diseño. La tecnología pasa de transformar el entorno a crear una simulación.
 
 ![Diagrama de una Relación virtual. Del sujeto a la interfaz, y de esta sí misma, a su propio modelo](/assets/img/relacionvirtual.png){: .invert-on-dark}
 
-Puesto que no hay un objeto al otro lado de la relación, las operaciones del sujeto no tienen efecto fuera del mismo. Al no haber una correspondencia material, el modelo absolutamente explícito informa una interfaz puramente representativa. Todo lo que sucede en el sistema virtual es ficticio; es decir, solo afecta al mundo en la medida en la que afecta al sujeto. La interfaz solo actúa en autorreferencia.
-
-Estos sistemas virtuales o *simulaciones* son contenedores del conocimiento que pueda aportar su modelo interno. Esto los hace entornos seguros de aprendizaje o la recreación. La ficción con la que el sujeto interactúa le devolverá el conocimiento o la experiencia del modelo que la informa, en tanto que su diseño sea efectivo.
+Los espacios virtuales de los que hablábamos antes, al referirnos a las actividades del ser humano en sociedad, expanden la realidad en tanto que sus modelos existen de manera autónoma a la misma. Permiten la elaboración de teorías propias, y, de hecho, son objeto de las ciencias sociales. Las simulaciones, en cambio, son espacios virtuales para contener información: aquella con la que se diseñe su modelo.
 
 <aside><blockquote><p>
-Todo lo que sucede en el sistema virtual es ficticio; es decir, solo afecta al mundo en la medida en la que afecta al sujeto.
+Lo único que puede ser transformado a través de lo virtual es el propio sujeto.
 </p></blockquote></aside>
 
 Cuando las simulaciones pueden aportarnos conocimiento del mundo (o una experiencia estética), ofrecen interacciones beneficiosas para el sujeto. Es una de las razones por las que el juego es importante para los niños. Incluso como adultos, un simulacro nos permite aprender sin temor a las consecuencias de equivocarnos. No obstante, la simulación también nos aísla de la realidad. Este es el gran potencial desadaptativo de lo virtual: la misma ficción que construye espacios de experimentación, puede ser una trampa en la que quedarse encerrado.
 
 Cuando consideramos lo virtual y lo real como espacios distintos, entonces el problema se encuentra en llevar al sujeto desde un mundo imaginario a uno real (un tema común en la filosofía o la historia del arte). Mucho más difícil es la cuestión que me interesaba plantear en este texto: el problema de los sistemas en los que coexisten lo virtual y lo real.
 
-## La emergencia de la virtualidad a partir de los modelos
+## La virtualidad emergente
 
 A medida que nuestras tecnologías se hacen más sofisticadas, las interfaces que pueden construirse también se pueden permitir modelos más elaborados para la relación con objetos más complejos. Como sujetos humanos, nuestra capacidad física y cognitiva no puede variar demasiado, así que el salto de complejidad entre lo que hay a cada lado de la interfaz se hace cada vez mayor. Los modelos requeridos para informar nuestras interfaces se hacen más explícitos y crean espacios de representación cada vez más amplios. Inevitablemente, estos sistemas acaban presentando relaciones de autorreferencia de las que emergen burbujas de virtualidad.
 
