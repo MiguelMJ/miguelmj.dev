@@ -14,9 +14,9 @@ position: 0
 
 I believe in the need for a responsible approach to the use of technology, firstly by those who legislate about it, secondly by those who build it, and finally by those who use it.
 
-I believe that there is an urgent need for computer literacy for citizens and that the term *digital native* hides a very dangerous technological illiteracy.
+I believe that there is an urgent need for computer literacy for citizens; the term *digital native* hides a very dangerous ignorance about technology.
 
-I believe that the design of any technology that influences relevant aspects of life must be open and that the opposite is potentially malicious, probably dangerous and mostly irresponsible.
+I believe that the code of software that influences relevant aspects of life must be open and that the opposite is at best irresponsible and at worst malicious.
 
 I believe there is a need to localise technology, reduce its high energy demands, eliminate any kind of planned obsolescence and encourage developers to think in terms of software and data preservation.
 

@@ -1,5 +1,6 @@
 ---
 layout: main
+show_toc: yes
 ---
 <article>
     <header role="banner">
@@ -21,9 +22,11 @@ layout: main
         </aside>
         {% endif %}
     </header>
+    {% unless page.hide_toc %}
     <nav role="doc-index" id="toc" class="card">
         {% include toc.html html=content h_min=page.toc_min h_max=3 %}
     </nav>
+    {% endunless %}
 
     <main>
         {{ content | markdownify }}
