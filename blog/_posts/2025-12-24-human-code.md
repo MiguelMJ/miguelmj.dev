@@ -2,6 +2,9 @@
 layout: post
 title: Human code
 hide_toc: yes
+links:
+    DEV.to: https://dev.to/miguelmj/human-code-1loe
+    Hashnode: https://miguelmj.hashnode.dev/human-code
 ---
 
 A little-shared perspective on the nature of code is what you can learn about a person from the way they write it. I had something like this in mind when I wrote about [Programming as Conversation](https://miguelmj.dev/blog/programming-as-a-conversation-how-the-communicative-scheme-is-also-applied-in-the-written-code-itself), but at that time I hadn't read as much code written by AI. I'm not going to get into issues such as productivity, code quality, software metrics or best practices; these are matters for the industry, and now I want to talk about programming as a human activity.

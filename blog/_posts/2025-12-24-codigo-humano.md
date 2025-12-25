@@ -2,6 +2,8 @@
 layout: post
 title: Código humano
 hide_toc: yes
+links:
+    DEV.to: https://dev.to/miguelmj/codigo-humano-5dm9
 ---
 
 Una perspectiva poco compartida sobre la naturaleza del código es lo que se puede saber de una persona por su manera de escribirlo. Algo así tenía en mente cuando escribí sobre [la programación como conversación](https://miguelmj.dev/blog/programming-as-a-conversation-how-the-communicative-scheme-is-also-applied-in-the-written-code-itself), pero en aquel entonces no había leído tanto código escrito por IA. No voy a entrar en cuestiones como la productividad, la calidad del código ni métricas software o buenas prácticas; estas incumben a la industria, y ahora quiero hablar de la programación como actividad humana.

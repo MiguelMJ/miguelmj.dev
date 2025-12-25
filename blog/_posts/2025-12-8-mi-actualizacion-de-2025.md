@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mi actualización de 2025
+hide_toc: yes
 ---
 
 Ha pasado un año desde la última vez que publiqué nada en este blog. La verdad es que pienso a menudo en escribir, en compartir lo último que he aprendido o reflexionar sobre algún tema actual de software o IA (un tema verdaderamente inagotable). Sin embargo, este último año ha sido una etapa especialmente intensa, una de esas de las que sabes que no saldrás siendo la misma persona. Este blog nunca ha sido especialmente biográfico, y esta publicación no pretende serlo, pero tal vez sea, en la línea que deje abierta hace un año, un poco más personal. También me apetece escribir en español por la misma razón.
