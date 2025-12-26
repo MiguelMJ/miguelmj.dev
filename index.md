@@ -10,11 +10,11 @@ layout: main
 
 *Knowledge only exists if it's shared*.
     
-I make open source [projects](./projects) to learn, experiment with different technologies and languages and, if possible, contribute to the community. Then, from time to time, I write about software development and computer science in a [blog](./blog) and about other interests in the [Codex](./codex). I have some [indie game development projects](https://barqueroteam.com) going on too.
+I'm a CS Graduate, Software Engineer and Master's student. I work on open source [projects](./projects) and, from time to time, I write about software development and computer science in a [blog](./blog) and about other interests in the [Codex](./codex). I have some [indie game projects](https://barqueroteam.com) going on too.
 
-Feel free to [reach me](./social) online! Just note that, for issues with my software, I usually respond faster through an issue in the repository.
+Feel free to [reach me](./social) online! For issues with my software, I usually answer faster through an issue in the repository.
 
-You will find most content here in English, but several pages are in Spanish.
+You will find most pages here in English, but some articles will be written in Spanish.
 
 <hr>
 
