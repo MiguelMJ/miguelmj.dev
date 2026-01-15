@@ -30,15 +30,17 @@
 
 <body>
     <nav id="navbar">
-            <ul  class="nobullet">
-                <li><a href="/">Home</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="/codex">Codex</a></li>
-                <li><a href="/social">Social</a></li>
-                <li><a href="/colophon">Colophon</a></li>
-            </ul>
-            
+        <ul class="nobullet">
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/codex">Codex</a></li>
+            <li><a href="/social">Social</a></li>
+            <li><a href="/colophon">Colophon</a></li>
+        </ul>
+        {% if page.main_index %}
+        {% include latest_twtxt.html url="/twtxt.txt" %}
+        {% endif %}
     </nav>
     {% include breadcrumbs.html %}
     <main>
@@ -48,6 +50,12 @@
     <footer>
         <small>
             <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY NC 4.0</a>
+            |
+            <a href="https://imwr.net/#miguelmj" title="Indie Málaga WebRing"><strong>imwr</strong></a>
+            {% if page.is_d33 %}
+            |
+            <a title="This Page has a Dw3nd3 Room" href="https://github.com/dw3nd3/d33-specification/wiki/TPDR">TPDR</a>
+            {% endif %}
         </small>
     </footer>
     <i id="gototop"></i>

@@ -19,18 +19,25 @@ I find these people and these sites interesting or useful in some way so I keep 
 - https://substack.com/@aleph0
 - https://www.over-yonder.net/~fullermd
 - https://www.rntz.net
+- https://n0thanky0u.neocities.org
+- https://alexanderpetros.com
+- https://dither8.xyz/blog
+- https://eldiariodeciudadtesoro.fun/
 
 ## Permacomputing, ecology, low tech
 
 - https://100r.co
 - https://solar.lowtechmagazine.com
-- https://es.ifixit.com/
+- https://es.ifixit.com
+- https://unplannedobsolescence.com
 
 ## Indie devs
 
-- https://nonoise.itch.io/
-- https://pantagruel.itch.io/
+- https://nonoise.itch.io
+- https://pantagruel.itch.io
 
 ## Random
 
 - https://clickclickclick.click
+- https://int10h.org/oldschool-pc-fonts
+- 

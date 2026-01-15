@@ -1,3 +1,9 @@
+'-/01/2026':
+  - "Now this site has a [twtxt](/twtxt.txt) feed."
+  - "The latest twtxt entry appears over the navbar on the main page."
+  - "Codex categories don't display sublinks anymore."
+  - "Unused individual project pages removed."
+  - "[Links](/codex/links) updated."
 '24/12/2025':
   - "New blog post: [Human code](/blog/human-code)."
   - "New blog post (spanish): [Código humano](/blog/codigo-humano)."

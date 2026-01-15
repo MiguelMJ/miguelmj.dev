@@ -8,8 +8,7 @@ layout: main
 # {{ page.title }}
 {{ page.description }}
 
-{% for page in pages %} 
-- [{{page.title}}]({{page.url}}). {{page.subtitle}}
-{% endfor %}
+{% for page in pages %}
+- [{{page.title}}]({{page.url}}). {{page.subtitle}}{% endfor %}
 {% endcapture %}
 {{ text | markdownify }}

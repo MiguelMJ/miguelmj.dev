@@ -2,7 +2,7 @@ permalink: /:categories/:title
 
 collections:
   projects:
-    output: true
+    output: false
     sort_by: position
   codex:
     output: true

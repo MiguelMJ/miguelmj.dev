@@ -31,9 +31,7 @@ Clusters of related projects.
 
 <dl>
 {% for project in super_projects %}
-<dt>
-<a href="{{project.url}}">{{project.title}}</a>
-</dt>
+<dt>{{project.title}}</dt>
 <dd>
 {{project.description}}
 <br/>

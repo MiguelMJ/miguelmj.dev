@@ -1,0 +1,23 @@
+<aside>
+    <code style="margin: 1rem 0;display:block">
+        <a id="twtxt-ts" href="{{include.url}}"></a> <span id="content"></span>
+    </code>
+    <script>
+        fetch("{{include.url}}")
+        .then(response => response.text())
+        .then(text => {
+            let lines = text.trim().split("\n")
+            let [date_str, content] = lines[lines.length - 1].split("\t")
+            let date = new Date(date_str)
+            document.getElementById("twtxt-ts").innerText = date.toLocaleString(navigator.language, {
+                year: '2-digit', 
+                month: '2-digit', 
+                day: '2-digit',
+                hour: '2-digit', 
+                minute:'2-digit'
+            })
+            document.getElementById("content").innerText = content
+        })
+        
+    </script>
+</aside>
